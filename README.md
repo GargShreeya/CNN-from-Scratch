@@ -12,8 +12,8 @@ The implemented layers are:
       padding:int -> by defaut 0 and implements zero padding
 
       output size= (input size-filter size  + 2*padding)/stride) +1
-      
-      For backpropagation in 2d convolutional layer, refer to https://deeplearning.cs.cmu.edu/F21/document/recitation/Recitation5/CNN_Backprop_Recitation_5_F21.pdf  
+
+For backpropagation in 2d convolutional layer, refer to https://deeplearning.cs.cmu.edu/F21/document/recitation/Recitation5/CNN_Backprop_Recitation_5_F21.pdf  
       
 **2.  2D Max Pooling Layer**  
       Outputs the maximum value in the filter.
